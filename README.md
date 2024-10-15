@@ -2,6 +2,10 @@
 
   A Flutter package for detecting blur in images. This package is useful for applications that need to validate image quality and enhance user experience by ensuring that images are clear and sharp.
 
+## Author
+
+Bharathi priyan <d.bharathipriyan@gmail.com>
+
 ## Features
 
 - Detects blur levels in images.
