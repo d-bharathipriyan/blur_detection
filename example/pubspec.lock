@@ -23,7 +23,7 @@ packages:
       path: "D:/blur_detect/blur_detection"
       relative: false
     source: path
-    version: "0.0.1"
+    version: "1.0.0"
   boolean_selector:
     dependency: transitive
     description:

@@ -9,8 +9,14 @@ Bharathi priyan <d.bharathipriyan@gmail.com>
 ## Features
 
 - Detects blur levels in images.
-- Simple API for easy integration.
 - Supports various image formats.
+
+## Platform Support
+
+This package supports the following platforms:
+
+- **Android**
+- **iOS**
 
 ## Installation
 
@@ -26,7 +32,15 @@ dependencies:
   The following example demonstrates how to check if an image is blurred:
 ```dart
 // Example usage code
-bool isBlurred = await BlurDetectionService.isImageBlurred(selectedFile);
+Future<void> checkImageBlur(File file) async {
+  final bool isBlurred = await BlurDetectionService.isImageBlurred(file);
+
+  if (isBlurred) {
+    print("The image is blurred.");
+  } else {
+    print("The image is clear.");
+  }
+}
 ```
 
 ## Contributing

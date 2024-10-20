@@ -1,8 +1,6 @@
 name: blur_detection
 description: A Flutter package for detecting blur in images.
-version: 0.0.1
-authors:                       
-  - Bharathi priyan <d.bharathipriyan@gmail.com>
+version: 1.0.0
 repository: https://github.com/d-bharathipriyan/blur_detection
 homepage:
 
